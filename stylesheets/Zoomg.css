@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    direction: rtl;
+}
+
+.header{
+    height: 110px;
+    width: 100%;
+    background-color: black;
+}
+
+.header .logo  {
+    float: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 62.5px;
+}
+
+.nav{
+    height: 60px;
+    background-color: rgb(43,43,44);
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li{
+    display: inline;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.nav ul li a span{
+
+    padding: 5px 5px 5px 5px;
+}
+
+#news_logo{
+    height: 30px;
+    background-image: url("../Zoomg/news.png")
+}
+#news_nav{
+    height: 30px;
+}
+
+.content{
+    background-color: whitesmoke;
+}
