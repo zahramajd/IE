@@ -1,6 +1,7 @@
 body{
     margin: 0;
     direction: rtl;
+    background-color: rgb(209,209,215);
 }
 
 .header{
@@ -17,12 +18,17 @@ body{
 }
 
 .nav{
+    /*position: fixed;*/
     height: 60px;
-    background-color: rgb(43,43,44);
+    width: 100%;
+    background-color: rgba(43,43,44,0.9);
+
 }
 
 .nav ul {
     list-style: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px ;
 }
 
 .nav ul li{
@@ -35,8 +41,7 @@ body{
 }
 
 .nav ul li a span{
-
-    padding: 5px 5px 5px 5px;
+    padding-right: 30px;
 }
 
 #news_logo{
@@ -47,6 +52,76 @@ body{
     height: 30px;
 }
 
+
 .content{
-    background-color: whitesmoke;
+    display: block;
+    background-color: white;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+
+
+}
+
+.text{
+    width: 70%;
+    text-align: right;
+    background-color: aquamarine;
+}
+
+.text img {
+    max-width: 100%;
+}
+
+.aside{
+    float: left;
+}
+
+
+.billboard{
+    background-image: url("../Zoomg/The_Good_Dinosaur_Promo_Art.jpg");
+    background-size: cover;
+    background-position: 50% 20%;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+.movie_name{
+}
+
+
+.movie_name h1{
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+.container{
+    text-align: center;
+}
+
+#poster{
+    float: left;
+}
+
+#quote{
+    float: left;
+    color:rgb(255,38,84);
+    font-size: 21px;
+    width:225px;
+    height: 185px;
+}
+
+#yaroo{
+    border-radius: 50%;
+    border: 5px solid;
+    border-color: rgb(240, 255, 255);
 }
