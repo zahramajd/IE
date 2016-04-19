@@ -54,31 +54,29 @@ body{
 
 
 .content{
-    display: block;
     background-color: white;
 
-    width: 80%;
-    margin: 0 10%;
+    margin: 10px 50px;
+    padding: 10px;
+}
 
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 50px;
-
+.main-content {
+    display: flex;
 }
 
 .text{
-    background-color: coral;
-    float: right;
-    width: 100%;
-    margin-right:-250px ;
+    padding: 20px 20px 20px 20px;
+    text-align: right;
 }
 
+.head {
+    height: 620px;
+}
 
 .aside{
-    background-color: aqua;
-    float: left;
-    width: 250px;
-
+    width: 300px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .text img {
@@ -132,4 +130,37 @@ body{
 .author_name{
     color: white;
 }
+.ads{
+    width: 300px;
+    height: 250px;
+}
 
+.review{
+    width: 100%;
+}
+
+.footer{
+    background-color: black;
+    min-height: 400px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 105px;
+    padding-left: 105px;
+}
+.footer div{
+    width: 262.5px;
+}
+.footer ul{
+    list-style: none;
+}
+.footer ul li{
+    margin-top: 10px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer ul li a:hover{
+    color: deeppink;
+}
