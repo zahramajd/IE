@@ -86,23 +86,29 @@ color:red;
 }
 .navbar-right{
     z-index: 1;
-    background-color: red;
+    background-color: rgb(153,10,28);
     width: 268px;
     text-align: center;
+    width: 268px;
 }
 .navbar-left{
-    background-color: red;
+    background-color: rgb(153,10,28);
     text-align: center;
     z-index: 1;
+    width: 80px;
 }
 .navbar-left a{
     text-decoration: none;
     color: white;
 }
+.navbar-center{
+    width: 100%;
+}
 
 .navbar-center-top{
     width: 100%;
     background-color: #1b1b1b;
+    height: 30px;
 }
 
 .navbar-center-top ul {
@@ -126,6 +132,7 @@ color:red;
 .navbar-center-down{
     background-color: black;
     width: 100%;
+    height: 50px;
 }
 
 .navbar-center-down ul {
@@ -136,13 +143,22 @@ color:red;
 
 .navbar-center-down ul li{
     display: inline-block;
+    padding-top: 15px;
 }
 
 .navbar-center-down ul li a {
     text-decoration: none;
     color: aliceblue;
-}
-
-.navbar-center-down ul li a span{
+    height: 50px;
     padding-right: 30px;
 }
+.navbar-center-down ul li a:hover {
+    background-color: rgb(153,10,28);
+}
+.navbar-center-top ul li a:hover {
+    color: rgb(153,10,28);
+}
+
+/*.navbar-center-down ul li a span{*/
+    /*padding-right: 30px;*/
+/*}*/
