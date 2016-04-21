@@ -143,7 +143,6 @@ color:red;
 
 .navbar-center-down ul li{
     display: inline-block;
-    padding-top: 15px;
 }
 
 .navbar-center-down ul li a {
@@ -151,6 +150,7 @@ color:red;
     color: aliceblue;
     height: 50px;
     padding-right: 30px;
+    display: inline-block;
 }
 .navbar-center-down ul li a:hover {
     background-color: rgb(153,10,28);
@@ -159,6 +159,7 @@ color:red;
     color: rgb(153,10,28);
 }
 
-/*.navbar-center-down ul li a span{*/
-    /*padding-right: 30px;*/
-/*}*/
+.navbar-center-down ul li a span{
+    vertical-align: middle;
+    display: block;
+}
