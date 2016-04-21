@@ -1,5 +1,6 @@
 body{
     direction: rtl;
+    margin: 0;
 }
 .container{
     display: flex;
@@ -58,6 +59,12 @@ color:red;
 .article-info{
     color: darkgray;
 }
+.most-visited{
+    background-color: gainsboro;
+}
+.most-visited-article{
+    background-color: white;
+}
 .most-visited-article-category a{
     color: darkgray;
     text-decoration: none;
@@ -71,4 +78,71 @@ color:red;
 }
 .most-visited-article-title a:hover{
     color: red;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 80px;
+}
+.navbar-right{
+    z-index: 1;
+    background-color: red;
+    width: 268px;
+    text-align: center;
+}
+.navbar-left{
+    background-color: red;
+    text-align: center;
+    z-index: 1;
+}
+.navbar-left a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-center-top{
+    width: 100%;
+    background-color: #1b1b1b;
+}
+
+.navbar-center-top ul {
+    list-style: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px ;
+}
+
+.navbar-center-top ul li{
+    display: inline-block;
+}
+
+.navbar-center-top ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navbar-center-top ul li a span{
+    padding-right: 30px;
+}
+.navbar-center-down{
+    background-color: black;
+    width: 100%;
+}
+
+.navbar-center-down ul {
+    list-style: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px ;
+}
+
+.navbar-center-down ul li{
+    display: inline-block;
+}
+
+.navbar-center-down ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navbar-center-down ul li a span{
+    padding-right: 30px;
 }
