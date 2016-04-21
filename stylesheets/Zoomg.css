@@ -1,3 +1,26 @@
+
+@font-face {
+    font-family: 'Yekan';
+    src:  url('../fonts/Yekan.eot?#') format('eot'),
+    url('../fonts/Yekan.woff') format('woff'),
+    url('../fonts/Yekan.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../fonts/IRANSans-web.eot');
+    src: url('../fonts/IRANSans-web.eot?#iefix') format('eot'),  /* IE6�8 */
+    url('../fonts/IRANSans-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+    url('../fonts/IRANSans-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/IRANSans-web.ttf') format('ttf');
+    font-weight: normal;
+}
+
+* {
+    font-family: Yekan;
+}
+
 body{
     margin: 0;
     direction: rtl;
@@ -18,7 +41,6 @@ body{
 }
 
 .nav{
-    /*position: fixed;*/
     height: 60px;
     width: 100%;
     background-color: rgba(43,43,44,0.9);
@@ -55,7 +77,6 @@ body{
 
 .content{
     background-color: white;
-
     margin: 10px 50px;
     padding: 10px;
 }
@@ -67,6 +88,7 @@ body{
 .text{
     padding: 20px 20px 20px 20px;
     text-align: right;
+    font-family: yekan, tahoma, arial, serif;
 }
 
 .head {
@@ -155,12 +177,63 @@ body{
     list-style: none;
 }
 .footer ul li{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .footer ul li a{
     text-decoration: none;
     color: white;
+    font-size: 14px;
 }
 .footer ul li a:hover{
     color: deeppink;
+}
+.big-number{
+    font-size: 30px;
+}
+.copyright{
+    height: 57px;
+    background-color: rgb(243,242,251);
+    display: flex;
+    justify-content: space-around;
+    color: rgb(169,169,169);
+}
+.copyright-right{
+    justify-content: flex-end;
+}
+.copyright-left{
+    justify-content: flex-start;
+}
+.comments{
+    padding: 20px 20px 20px 20px;
+    text-align: right;
+    font-family: yekan, tahoma, arial, serif;
+
+}
+.comment{
+display: flex;
+    flex-direction: row;
+
+}
+.avatar{
+    width: 450px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.comment-self{
+
+}
+.comment-author{
+    display: inline-block;
+    margin-left: 65px;
+
+}
+.date{
+    display: inline;
+    font-size: 10px;
+}
+.comment-text{
+    margin-top: 55px;
+}
+.reply{
+
 }
