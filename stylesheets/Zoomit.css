@@ -58,3 +58,17 @@ color:red;
 .article-info{
     color: darkgray;
 }
+.most-visited-article-category a{
+    color: darkgray;
+    text-decoration: none;
+}
+.most-visited-article-category a :hover{
+    color: red;
+}
+.most-visited-article-title a{
+    color: black;
+    text-decoration: none;
+}
+.most-visited-article-title a:hover{
+    color: red;
+}
