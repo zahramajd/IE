@@ -187,11 +187,17 @@ color:red;
 .banners{
 
 }
+.banner img {
+    height: 100%;
+    position: absolute;
+}
 .banner-lg{
 height: 300px;
+    display: inline-block;
 }
 .banner-sm{
 height: 150px;
+    display: inline-block;
 }
 .banner-category{
 color: rgb(233,154,53);
