@@ -271,6 +271,8 @@ display: flex;
     display: none;
     position: absolute;
     min-width: 80%;
+    left:10%;
+    right:10%;
 }
 .nav ul li a:hover .nav-dropdown{
     display: block;
@@ -289,6 +291,9 @@ display: flex;
 .list ul li {
 color: white;
     display: block;
+    margin-top: 1px;
+    font-size: 10px;
+    margin-right: 2px;
 }
 .nav-dropdown-content{
     display: flex;
