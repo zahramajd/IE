@@ -35,8 +35,7 @@ body{
     /*background-color: greenyellow;*/
 }
 .left-bar{
-
-    width: 298px;
+    min-width: 298px;
     /*background-color: lightpink;*/
 }
 .content{
@@ -216,6 +215,9 @@ color: white;
 }
 .instruction{
     display: flex;
+    padding: 15px 15px 15px 15px;
+    border-bottom: 1px solid;
+    border-bottom-color: lightgrey;
 }
 .instruction-img{
     max-width: 80px;
@@ -265,6 +267,7 @@ color: white;
 }
 .instruction-info{
     margin-right: 5px;
+    padding:5px 5px 5px 5px;
 }
 .footer{
     background-color: rgb(39,39,39);
