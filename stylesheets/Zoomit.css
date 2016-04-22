@@ -1,3 +1,25 @@
+@font-face {
+    font-family: 'Yekan';
+    src:  url('../fonts/Yekan.eot?#') format('eot'),
+    url('../fonts/Yekan.woff') format('woff'),
+    url('../fonts/Yekan.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../fonts/IRANSans-web.eot');
+    src: url('../fonts/IRANSans-web.eot?#iefix') format('eot'),  /* IE6�8 */
+    url('../fonts/IRANSans-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+    url('../fonts/IRANSans-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/IRANSans-web.ttf') format('ttf');
+    font-weight: normal;
+}
+
+* {
+    font-family: Yekan;
+}
+
 body{
     direction: rtl;
     margin: 0;
@@ -10,15 +32,16 @@ body{
 .right-bar{
 
     width: 248px;
-    background-color: greenyellow;
+    /*background-color: greenyellow;*/
 }
 .left-bar{
 
     width: 298px;
-    background-color: lightpink;
+    /*background-color: lightpink;*/
 }
 .content{
 padding: 5px 5px;
+    margin: 5px 5px;
 }
 .suggest{
     display: flex;
@@ -228,6 +251,7 @@ color: white;
     border-color: rgb(245,245,245);
     margin: 5px 5px;
     padding-bottom: 0px;
+    height: 56px;
 }
 .suggestion{
     border: 1px solid ;
@@ -244,4 +268,7 @@ color: white;
 }
 .footer{
     background-color: rgb(39,39,39);
+}
+.container{
+    background-color: rgb(240,240,240);
 }
