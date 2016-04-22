@@ -470,3 +470,38 @@ body {
 .ref{
     color:white;
 }
+.watch-it{
+    display: flex;
+    justify-content: space-around;
+}
+.w1{
+    background: url('../Zoomit/5b506a5f-c656-474d-889a-f48a59ca6e38-400x267.jpg') no-repeat;
+    background-size: cover;
+    width: 410px;
+    height: 250px;
+}
+.w2{
+    background: url('../Zoomit/d9cc01c0-d433-4acd-8580-cce488fb648e-400x267.jpg') no-repeat;
+    background-size: cover;
+    width: 410px;
+    height: 250px;
+}
+.w3{
+    background: url('../Zoomit/8d6d90ee-d1d3-45a6-872b-86192064f95b-400x267.jpg') no-repeat;
+    background-size: cover;
+    width: 410px;
+    height: 250px;
+}
+.watch-it a{
+    color: white;
+    text-decoration: none;
+}
+.watch-it-container{
+    background-color: rgb(39,39,39);
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+}
+.watch-it-container h3{
+    color: white;
+}
