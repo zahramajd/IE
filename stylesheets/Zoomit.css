@@ -94,7 +94,7 @@ color:red;
 .navbar-left{
     background-color: rgb(153,10,28);
     text-align: center;
-    z-index: 1;
+    z-index: 4;
     width: 80px;
 }
 .navbar-left a{
@@ -149,8 +149,9 @@ color:red;
     text-decoration: none;
     color: aliceblue;
     height: 50px;
-    padding-right: 30px;
     display: inline-block;
+    padding: 15px 10px;
+    height: 100%;
 }
 .navbar-center-down ul li a:hover {
     background-color: rgb(153,10,28);
@@ -162,4 +163,63 @@ color:red;
 .navbar-center-down ul li a span{
     vertical-align: middle;
     display: block;
+}
+.banners{
+display: flex;
+}
+.banner-lg{
+height: 300px;
+}
+.banner-sm{
+height: 150px;
+}
+.banner-category{
+color: rgb(233,154,53);
+}
+.banner-title{
+color: white;
+}
+.banner-lg img{
+    z-index: -1;
+}
+.banner-sm img{
+    z-index: -1;
+}
+.banner-lg a{
+    height:300px;
+    width:315px;
+}
+.banner-sm a{
+    height:150px;
+    width:315px;
+}
+.instruction{
+    display: flex;
+}
+.instruction-img{
+    max-width: 80px;
+}
+.instruction-category a{
+    text-decoration: none;
+    color: lightgrey;
+}
+.instruction-category a:hover{
+    color: red;
+}
+.instruction-title a{
+    text-decoration: none;
+    color: black;
+}
+.instruction-title a:hover{
+    color: red;
+}
+.instruction{
+    background-color: white;
+}
+.copyright{
+    height: 42px;
+    background-color: black;
+}
+.copyright-right{
+    color: white;
 }
