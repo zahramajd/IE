@@ -18,14 +18,12 @@ body{
     background-color: lightpink;
 }
 .content{
-
+padding: 5px 5px;
 }
 .suggest{
     display: flex;
     padding: 30px 30px 30px 30px;
     justify-content: space-around;
-    border: 2px solid ;
-    border-color: darkgray;
     flex-direction: row;
 }
 .suggest-col{
@@ -222,4 +220,28 @@ color: white;
 }
 .copyright-right{
     color: white;
+}
+.title{
+    color: black;
+    background-color: rgb(245,245,245);
+    border: 1px solid ;
+    border-color: rgb(245,245,245);
+    margin: 5px 5px;
+    padding-bottom: 0px;
+}
+.suggestion{
+    border: 1px solid ;
+    border-color: darkgray;
+    padding: 0 ;
+}
+.new-articles{
+    border: 1px solid ;
+    border-color: darkgray;
+    padding: 0 ;
+}
+.instruction-info{
+    margin-right: 5px;
+}
+.footer{
+    background-color: rgb(39,39,39);
 }
