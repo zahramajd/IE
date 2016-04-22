@@ -237,3 +237,60 @@ display: flex;
 .reply{
 
 }
+.zoomit-article{
+    text-align: right;
+}
+.zoomit-article-title a{
+    text-decoration: none;
+    color: black;
+}
+.zoomit-article-title a:hover{
+    color: deeppink;
+}
+.zoomit-article-date{
+    color: darkgray;
+}
+.title-box{
+    width: 94px;
+    height: 36px;
+    border: 1px solid;
+    background-color: gainsboro;
+    border-color: grey;
+    padding: 0;
+    text-align: center;
+}
+.title-box a{
+    text-decoration: none;
+    color: black;
+
+}
+.title-box a:hover{
+    color: deeppink;
+}
+.nav-dropdown{
+    display: none;
+    position: absolute;
+    min-width: 80%;
+}
+.nav ul li a:hover .nav-dropdown{
+    display: block;
+}
+.list{
+    min-width: 20%;
+    background-color: black;
+}
+.cols{
+    min-width: 80%;
+    background-color: white;
+    display: flex;
+    color: black;
+    justify-content: space-around;
+}
+.list ul li {
+color: white;
+    display: block;
+}
+.nav-dropdown-content{
+    display: flex;
+
+}
