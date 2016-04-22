@@ -299,9 +299,7 @@ body {
 
 .banner a {
     text-decoration: none;
-    word-wrap: break-word;
-
-}
+    word-wrap: break-word;}
 
 .instruction {
     display: flex;
@@ -389,9 +387,52 @@ body {
 }
 .review{
     display: flex;
+    justify-content: space-around;
 }
 .review-left{
     background: url('../Zoomit/51009fc9-0858-4efe-b0e7-d65bf3d9fc63.jpg') no-repeat;
+    background-size: cover;
+    width: 578px;
+    height: 450px;
+}
+.review-left a{
+    text-decoration: none;
+    color: white;
+}
+.review-right{
+    width: 578px;
+    height: 450px;
+}
+.back1{
+    background: url('../Zoomit/25184506-3e74-4ac4-8519-125ad0bfb266-400x267.jpg') no-repeat;
+    background-size: cover;
+}
+.back2{
+    background: url('../Zoomit/e3c76ec9-0466-480a-b2be-27b17b866c6a-400x267.jpg') no-repeat;
+    background-size: cover;
+}
+.review-right-top-article{
+    width: 292px;
+    height: 250px;
+}
+.review-right-top-article a{
+    text-decoration: none;
+    color: white;
+}
+.review-right-top{
+    display: flex;
+    justify-content: space-around;
+}
+.review-right-down{
+    display: flex;
+    justify-content: space-around;
+}
+.review-right-down-article a{
+    color: black;
+    text-decoration: none;
+}
+.review-right-down-article a:hover{
+    color: red;
 }
 
 .footer-top{
@@ -422,4 +463,10 @@ body {
 .foot-article{
     display: flex;
     padding-top: 0;
+}
+.footer-down{
+    display: flex;
+}
+.ref{
+    color:white;
 }
