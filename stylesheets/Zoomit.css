@@ -505,3 +505,11 @@ body {
 .watch-it-container h3{
     color: white;
 }
+.red-button{
+    bottom: 10px;
+    right:10px;
+    position: fixed;
+    width: 14px;
+    height: 14px;
+    display: block;
+}

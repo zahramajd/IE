@@ -52,9 +52,10 @@ body{
     margin: 0px 0px 0px 0px ;
 }
 
-.nav ul li{
+.nav > ul > li{
     display: inline-block;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .nav ul li a {
@@ -234,8 +235,12 @@ display: flex;
 .comment-text{
     margin-top: 55px;
 }
-.reply{
-
+.reply a{
+text-decoration: none;
+    color: black;
+}
+.reply a:hover{
+    color: deeppink;
 }
 .zoomit-article{
     text-align: right;
@@ -267,20 +272,33 @@ display: flex;
 .title-box a:hover{
     color: deeppink;
 }
+
 .nav-dropdown{
     display: none;
     position: absolute;
-    min-width: 80%;
-    left:10%;
-    right:10%;
+    min-width: 90%;
+    left:5%;
+    right:5%;
+    margin-top: 16px;
+
 }
-.nav ul li a:hover .nav-dropdown{
+
+.nav > ul > li:hover > .nav-dropdown{
     display: block;
 }
+
 .list{
     min-width: 20%;
-    background-color: black;
+    background-color: rgb(37,37,39);
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
+
+.list ul li:first-child{
+    color: orange;
+}
+
 .cols{
     min-width: 80%;
     background-color: white;
@@ -289,13 +307,38 @@ display: flex;
     justify-content: space-around;
 }
 .list ul li {
-color: white;
+color: rgb(140,140,140);
     display: block;
     margin-top: 1px;
-    font-size: 10px;
+    font-size: 14px;
     margin-right: 2px;
+    padding-top: 2px;
+    margin-left: 2px;
 }
 .nav-dropdown-content{
     display: flex;
 
+}
+.section-article{
+    text-align: right;
+    display: flex;
+}
+.section-article-title a{
+    text-decoration: none;
+    color: #1b1b1b;
+    font-size: 13px;
+    padding-right: 3px;
+}
+.section-article-title a:hover{
+    color: orange;
+}
+.col{
+    margin: 20px;
+    color: #1b1b1b;
+}
+.col h4{
+    color: #1b1b1b;
+}
+.cols{
+    padding-top: 3px;
 }
